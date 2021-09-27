@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context="com.safasoftco.amanalrasool.MainActivity" >
+
+    <Button
+        android:id="@+id/btnAman"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="btnAyeh_Click"
+        android:text="آیه آمَنَ الرَّسُولُ" />
+     
+     <Button
+        android:id="@+id/btnTafsir"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnAman"
+        android:onClick="btnTafsir_Click"
+        android:text="تفسیر" />
+
+     <Button
+        android:id="@+id/btnManba"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnTafsir"
+        android:onClick="btnManba_Click"
+        android:text="منبع آیه و تفسیر" />
+     
+
+     <Button
+        android:id="@+id/btnContactus"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnManba"
+        android:onClick="btnContact_Click"
+        android:text="تماس با ما" />
+     
+     <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnContactus"
+        android:onClick="btnExit_Click"
+        android:text="خروج" />
+     
+     
+</RelativeLayout>
